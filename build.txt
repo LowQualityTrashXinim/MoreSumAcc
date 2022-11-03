@@ -1,0 +1,3 @@
+displayName = SummonerAccessories++
+author = Xinim
+version = 0.1
