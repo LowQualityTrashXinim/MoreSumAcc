@@ -96,7 +96,7 @@ namespace MoreSumAcc.Items
 
     public class MindWaveVisualProjectile : ModProjectile
     {
-        public override string Texture => "MoreSumAcc/Item/MindWaveProjectile";
+        public override string Texture => "MoreSumAcc/Items/MindWaveProjectile";
         public override void SetDefaults()
         {
             Projectile.width = 20;
