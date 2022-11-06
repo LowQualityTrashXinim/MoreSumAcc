@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.ItemDropRules;
-using MoreSumAcc.Item;
+using MoreSumAcc.Items;
 
 namespace MoreSumAcc
 {
