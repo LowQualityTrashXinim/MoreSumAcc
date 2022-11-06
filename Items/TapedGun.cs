@@ -41,13 +41,12 @@ namespace MoreSumAcc.Items
         {
             taped = false;
         }
-        public override bool Shoot(Item item, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+        public override void ModifyShootStats(Item item, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback)
         {
-            if(item.DamageType == DamageClass.MeleeNoSpeed)
+            if (item.DamageType == DamageClass.SummonMeleeSpeed && taped)
             {
-                Projectile.NewProjectile(source, position, velocity, ProjectileID.Bullet, 20, 1f, Player.whoAmI);
+                Projectile.NewProjectile(Player.GetSource_FromThis(), Player.Center, velocity*20, ProjectileID.Bullet, 20, 1f, Player.whoAmI);
             }
-            return default;
         }
     }
 }
