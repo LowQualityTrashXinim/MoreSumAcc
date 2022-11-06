@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace MoreSumAcc.Item
+namespace MoreSumAcc.Items
 {
     internal class KingSlimeGem : ModItem
     {

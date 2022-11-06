@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 
-namespace MoreSumAcc.Item
+namespace MoreSumAcc.Items
 {
     internal class CharmOfStar : ModItem
     {
